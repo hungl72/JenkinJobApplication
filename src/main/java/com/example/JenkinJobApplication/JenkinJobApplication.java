@@ -10,11 +10,11 @@ import java.util.logging.Logger;
 @SpringBootApplication
 public class JenkinJobApplication {
 
-	public static Logger logger = (Logger) LogFactory.getLog(JenkinJobApplication.class);
+	//public static Logger logger = (Logger) LogFactory.getLog(JenkinJobApplication.class);
 
 	@PostConstruct
 	public void init() {
-		logger.info("Welcome to EnggAdda");
+		System.out.println("Welcome to EnggAdda");
 	}
 
 	public static void main(String[] args) {
